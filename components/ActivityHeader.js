@@ -35,9 +35,9 @@ class ActivityHeader extends React.Component{
                         <MapView region={{latitude: 46.735349, longitude: 23.565160, latitudeDelta: 0.0922, longitudeDelta: 0.0421}} style={{width:'95%', height:'100%',
                             marginLeft:'1%', marginRight:'1%', marginTop:'2%'}}/>
                     </View>
-                    <View style={{flexDirection:'row', alignItems:'center', width:'35%', marginLeft:'1%', marginTop:'10%'}}>
+                    <View style={{flexDirection:'row', alignItems:'center', width:'26%', marginLeft:'1%', marginTop:'10%'}}>
                         <Text style={{fontSize:18, fontWeight:'bold', paddingRight:'3%', backgroundColor:'#FFBE0B', borderRadius:5}}>Level:</Text>
-                        <Text style={{marginLeft:'5%', backgroundColor:'#4CC9F0', borderRadius: 50, fontWeight:'bold', fontSize:18}}>{this.props.activityLevel}</Text>
+                        <Text style={{marginLeft:'5%', backgroundColor:'#4CC9F0', borderRadius: 50, fontWeight:'bold', fontSize:14}}>{this.props.activityLevel}</Text>
                     </View>
                     <View style={{flexDirection:'row', alignItems:'center', width:'35%', marginLeft:'1%', marginTop:'5%'}}>
                         <Text style={{fontSize:18, fontWeight:'bold', paddingRight:'2%', backgroundColor:'#FFBE0B', borderRadius:5}}>
@@ -52,9 +52,9 @@ class ActivityHeader extends React.Component{
                         </Text>
                     </View>
                     <View style={{flexDirection:'row', marginTop:'25%', justifyContent:'space-between', marginLeft:'1%', marginRight:'1%'}}>
-                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'35%', padding:'0.5%', fontWeight:'bold', fontSize:18}}>Going!</Text>
-                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'35%', padding:'0.5%', fontWeight:'bold', fontSize:18}}>Interested</Text>
-                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'35%', padding:'0.5%', fontWeight:'bold', fontSize:18}}>Invite</Text>
+                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'30%', padding:'0.5%'}}>Going!</Text>
+                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'30%', padding:'0.5%'}}>Interested</Text>
+                        <Text style={{backgroundColor:'#7209B7', borderRadius:50, height:'30%', padding:'0.5%'}}>Invite</Text>
                     </View>
                 </View>
             </View>
