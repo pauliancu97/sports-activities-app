@@ -1,0 +1,9 @@
+.incorrect_field {
+    background-color: pink;
+    width: 100%;
+}
+
+.correct_field {
+    background-color: white;
+    width: 100%;
+}
