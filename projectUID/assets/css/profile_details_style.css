@@ -1,0 +1,16 @@
+#profile-details-element{
+    margin-top: 1%;
+    text-align: center;
+}
+#profile-details-element img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+#profile-details-element .btn{
+    margin: 5px 5px;  
+    border-radius: 10px;
+    background-color: pink;
+    color:black;
+    font-weight: bold;
+}
