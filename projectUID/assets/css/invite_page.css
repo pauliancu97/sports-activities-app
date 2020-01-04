@@ -65,8 +65,9 @@
     height: 420px;
 }
 #next-step-btn{
+    text-align: center;
     width: 100%;
-    height: 9.5%;
+    height: 9%;
     background-color: pink;
     color:black;
     font-weight: bold;
