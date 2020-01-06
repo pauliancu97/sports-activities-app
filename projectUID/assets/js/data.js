@@ -4,6 +4,10 @@ let DATA = {
         username: 'Razvan Dumitrescu',
         image: 'assets/img/runner.png'
     },
+    pending_friend_requests:
+    [
+        
+    ],
     'color_run':
     {
         activity: true,
