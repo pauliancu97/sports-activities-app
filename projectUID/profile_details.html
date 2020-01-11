@@ -51,6 +51,37 @@
                 <button type="button" class="btn btn-primary">Send friend request</button>
                 <a href="./chat.html" type="button" class="btn btn-primary">Send message</a>
                 <a href="./report_page.html" type="button" class="btn btn-primary">Report</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#feedbackModal">Send feedback</button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="feedbackModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Feedback</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <span id="rate">Rate user</span>
+                        <span id="star1" class="fa fa-star fa-lg"></span>
+                        <span id="star2" class="fa fa-star fa-lg"></span>
+                        <span id="star3" class="fa fa-star fa-lg"></span>
+                        <span id="star4" class="fa fa-star fa-lg"></span>
+                        <span id="star5" class="fa fa-star fa-lg"></span>
+                        <hr>
+                        <input type="text" id="details" placeholder="Write feedback...">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </body>

@@ -14,3 +14,19 @@
     color:black;
     font-weight: bold;
 }
+
+#rate {
+    margin-right: 10%;
+}
+
+.checked {
+    color: orange;
+}
+
+.check {
+    color: orange;
+}
+
+#details {
+    border: none;
+}
