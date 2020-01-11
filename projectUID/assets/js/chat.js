@@ -1,21 +1,21 @@
 $(document).ready(() =>
 {
-    user = sessionStorage.getItem('otherUser');
-    console.log(user);
+    var user = sessionStorage.getItem('otherUser');
     $('#username').text(user);
     var msgList = $('#message-list');
-    $('#send-button').click(()=>{
-        var text =  $('#message-input').val();
+    $('#send-button').click(() =>
+    {
+        var text = $('#message-input').val();
         if (text.length > 0)
         {
             $('#message-input').val("");
             var li = $('<li>')
-                    .addClass('list-group-item right-message')
-                    .appendTo(msgList);
+                .addClass('list-group-item right-message')
+                .appendTo(msgList);
             var span = $('<span>')
-                        .text(text)
-                        .appendTo(li);
-            
+                .text(text)
+                .appendTo(li);
+
             setTimeout(
                 function()
                 {

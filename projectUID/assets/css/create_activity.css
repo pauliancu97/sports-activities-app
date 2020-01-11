@@ -1,0 +1,20 @@
+input {
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 4px;
+}
+
+input[type=text], input[type=date], input[type=time] {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #a64cfa;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: deeppink;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
