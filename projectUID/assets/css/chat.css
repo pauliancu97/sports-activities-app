@@ -1,0 +1,43 @@
+body {
+}
+
+#send-message {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.list-group {
+  position: absolute;
+  height: 65%;
+  width: 90%;
+  display: inline-block;
+  overflow: auto
+}
+
+p {
+  padding: 3%;
+  font-weight: bold;
+  border-bottom: solid;
+}
+
+.border.rounded.form-control-sm {
+  width: 80%;
+  margin: 3%;
+}
+
+.left-message {
+  background-color: #a64cfa;
+  float: left;
+}
+
+.list-group li {
+  margin-bottom: 2%;
+  width: 70%;
+}
+
+.right-message {
+  background-color: pink;
+  float: right;
+}
+

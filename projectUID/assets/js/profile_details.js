@@ -7,5 +7,6 @@ $(document).ready(
         let userName = params.get('username');
         profileUserName.text(userName);
         profileImage.attr('src', srcProfileImage);
+        sessionStorage.setItem('otherUser', profileUserName.html());
     }
 );
