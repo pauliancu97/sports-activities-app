@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Untitled (Backup 1576263969659)</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+        <link rel="stylesheet" href="assets/css/Header-Blue.css">
+        <link rel="stylesheet" href="assets/css/invite_page.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+        <link rel="stylesheet" href="assets/css/News-Cards.css">
+        <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/Animated-Menu-Icon.css">
+        <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
+        <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/58f8f32d9e.js" crossorigin="anonymous"></script>
+        <script src="assets/js/invite_page.js"></script>
+    </head>
+    <body>
+      <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: #7209B7;color: #7209B7;margin-bottom: 10px;">
+            <div class="container">
+                <div id="wrapper" style="color: rgb(87,33,207);">
+                    <div id="sidebar-wrapper" style="color: rgb(88,42,188);">
+                        <ul class="sidebar-nav">
+                            <li class="sidebar-brand"> <a href="#" style="color:rgb(76, 201, 240);">See profile</a></li>
+                            <li> <a href="#" style="color:rgb(76, 201, 240);">Activity history</a></li>
+                            <li> <a href="after log in/upcomingEvents/upcomingEvents.html" style="color:rgb(76, 201, 240);">Upcoming events</a></li>
+                            <li> <a href="#" style="color:rgb(76, 201, 240);">Friends</a></li>
+                            <li> <a href="create_activity.html" style="color:rgb(76, 201, 240);">Create activity</a>
+                                <a class="d-xl-flex" href="index.html" style="margin-top: 200px; color:rgb(76, 201, 240);">Log out</a></li>
+                        </ul>
+                    </div>
+                    <div class="page-content-wrapper">
+                        <div style="background-color: #dd899d;" class="navbar-toggler"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                </div>
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+                <script src="assets/js/Sidebar-Menu.js"></script>
+            </div>
+        </nav>
+        </div>
+        <div id="invite-header">
+            <p id="num-friends-para">Friends selected: <span id="num-friends">0</span></p>
+            <button class="btn btn-primary" id="action-btn">Select all!</button>
+        </div>
+        <div id="search-box-div">
+            <i class="fas fa-search"></i>
+            <input type="text" class="form-control" placeholder="Search for friend..." id="search"/>
+        </div>
+        <div id="friends-list">
+            <div id="profile-select-element" class="hero-unit" hidden>
+                <img src="assets/img/runner.png" id="profile-image"/>
+                <a href="./profile_details.html" id="profile-user-name">Alex Toader</a>
+                <i id="profile-selected" class="far fa-square"></i>
+            </div>
+        </div>
+        <a class="btn btn-primary" id="next-step-btn" href="./invite_comment_page.html">Next step!</a>
+        <div class="modal fade" id="no-friends-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Must select at least a friend</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>You must select at least one friend in order to make an invitation!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

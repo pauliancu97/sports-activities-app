@@ -19,27 +19,30 @@ function checkFields() {
     var email = document.getElementById("email");
     var username = document.getElementById("username");
     var password = document.getElementById("password");
+    var emailError = document.getElementById("emailError");
 
 
     if (fName.value.length < 2) {
         fnamecorect = 0;
         fName.className = "incorrect_field";
+        fName.value = "";
     }
-    if (lName.value.length < 1) {
-        lName.className = "incorrect_field";
-        lnamecorect = 0;
-    }
+
     if (!(email.value.includes("@"))) {
         email.className = "incorrect_field";
         emailcorect = 0;
+        emailError.innerHTML = "Enter a valid email address";
+        email.value = "";
     }
-    if (username.value.length < 1) {
+    if (username.value.length < 2) {
         username.className = "incorrect_field";
         usernamecorect = 0;
+        username.value = "";
     }
     if (password.value.length < 5) {
         password.className = "incorrect_field";
         passcorect = 0;
+        password.value = "";
     }
 
 
@@ -47,13 +50,11 @@ function checkFields() {
         fnamecorect = 1;
         fName.className = "correct_field";
     }
-    if (lName.value.length > 1) {
-        lName.className = "correct_field";
-        lnamecorect = 1;
-    }
+
     if (email.value.includes("@")) {
         email.className = "correct_field";
         emailcorect = 1;
+        emailError.innerHTML = "";
     }
     if (username.value.length > 1) {
         username.className = "correct_field";

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>seeActivity</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/activity_page.css">
+    <link rel="stylesheet" href="assets/css/profile_summary_styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Menu-Icon.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/58f8f32d9e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/activity_page.js"></script>
+</head>
+<body>
+    <div></div>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: #7209B7;color: #7209B7;margin-bottom: 10px;">
+            <div class="container">
+                <div id="wrapper" style="color: rgb(87,33,207);">
+                    <div id="sidebar-wrapper" style="color: rgb(88,42,188);">
+                        <ul class="sidebar-nav">
+                            <li class="sidebar-brand"> <a href="#" style="color:rgb(76, 201, 240);">See profile</a></li>
+                            <li> <a href="#" style="color:rgb(76, 201, 240);">Activity history</a></li>
+                            <li> <a href="after log in/upcomingEvents/upcomingEvents.html" style="color:rgb(76, 201, 240);">Upcoming events</a></li>
+                            <li> <a href="#" style="color:rgb(76, 201, 240);">Friends</a></li>
+                            <li> <a href="create_activity.html" style="color:rgb(76, 201, 240);">Create activity</a>
+                                <a class="d-xl-flex" href="index.html" style="margin-top: 200px; color:rgb(76, 201, 240);">Log out</a></li>
+                        </ul>
+                    </div>
+                    <div class="page-content-wrapper">
+                        <div style="background-color: #dd899d;" class="navbar-toggler"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                </div>
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+                <script src="assets/js/Sidebar-Menu.js"></script>
+            </div>
+        </nav>
+    </div>
+    <img id="activity-image" src="assets/img/colorful-crowd-party-fitness-marathon-rave-5k-color-run-5k-run-color-throw_t20_7OaO1O-1500x750.jpg" height="200px" width="100%">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="activity-name" class="text-center shadow-sm" style="font-size: 25px;margin-top: 10px;"><strong>Color run - Central Park</strong></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-clean">
+        <div class="container">
+            <div class="intro">
+                <p class="text-center" id="description">Cunoscuta si drept&nbsp;<strong>”Happiest 5k on the Planet”</strong>&nbsp;– este o cursa euforica in culori, care celebreaza sanatatea, bucuria si originalitatea. Axata mai putin pe timpii de alergare si mai mult pe distractia nebuna,
+                    The Color Run™ este o cursa necronometrata de 5 kilometri, in cadrul careia mii de participanti sunt vopsiti din cap pana-n picioare in diverse culori, la finalul fiecarui kilometru parcurs.</p>
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item">
+                    <i class="fa fa-map-marker icon"></i>
+                    <h3 class="name" id="location-name">Central Park - Cluj Napoca</h3>
+                    <p class="description" id="location-description">We will meet at the&nbsp;park's entrance</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
+                    <h3 class="name">Meet up time</h3>
+                    <p class="description">We will meet at <span id="date-hour">14:00</span>, on <span id="date-day">28</span> <span id="date-month">Oct</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-universal-access icon"></i>
+                    <h3 class="name">Who is this activity for?</h3>
+                    <p class="description" id="preq">You need to be able to run for 5km and to be ok with getting yourself colored.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item">
+                    <i class="fa fa-male icon"></i>
+                    <h3 class="name">See who else will be here!</h3>
+                    <p class="description">
+                        <a id="attendees-link" href="">Attendees (<span id="attendees-num">1</span>)</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item">
+                    <i class="fa fa-umbrella icon"></i>
+                    <h3 class="name">Equipment</h3>
+                    <p class="description">
+                        <a id="equipment-link" href="">Equipment (<span id="equipment-num">1</span>)</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-user icon"></i>
+                    <h3 class="name">Organizer<br></h3>
+                    <div id="profile-summary-element" class="hero-unit" style="padding-left: 0%;">
+                        <img src="assets/img/runner.png" id="profile-image"/>
+                        <a href="./profile_details.html" id="profile-user-name">Alex Toader</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item">
+                    <i class="fas fa-comments icon"></i>
+                    <h3 class="name">See comments<br></h3>
+                    <p class="description">
+                        <a href="" id="comments-link">Comments (<span id="num-comments">1</span>)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-group-horizontal">
+        <button type="button" class="btn btn-primary" id="interested-btn">Interested</button>
+        <button id="going-btn" type="button" class="btn btn-primary">Going</button>
+        <a href="./invite_page.html" class="btn btn-primary">Invite</a>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -22,28 +22,36 @@
                 <h1>Register Form</h1>
                 <div class="form-row form-group">
                     <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">* First name</label></div>
-                    <div class="col-sm-6 input-column"><input id="firstName" class="form-control" type="text" required="" minlength="3"></div>
+                    <div class="col-sm-6 input-column"><input id="firstName" placeholder="Minimum of 3 characters" class="form-control" type="text"></div>
                 </div>
                 <div class="form-row form-group">
-                    <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field">* Last name</label></div>
-                    <div class="col-sm-6 input-column"><input id="lastName" class="form-control" type="email" required="" minlength="3"></div>
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field"> Last name</label></div>
+                    <div class="col-sm-6 input-column"><input id="lastName" class="form-control" type="email"></div>
                 </div>
                 <div class="form-row form-group">
                     <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">* Email</label></div>
-                    <div class="col-sm-6 input-column"><input id="email" class="form-control" type="email" required=""></div>
+                    <div class="col-sm-6 input-column"><input id="email" class="form-control" type="email"></div>
                 </div>
-                <div class="form-row form-group">
-                    <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">* Username</label></div>
-                    <div class="col-sm-6 input-column"><input id="username" class="form-control" type="email" required="" minlength="3"></div>
-                </div>
-                <div class="form-row form-group">
-                    <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field">* Password </label></div>
-                    <div class="col-sm-6 input-column"><input placeholder="Minimum of 6 characters" class="form-control" id="password" type="password" minlength="5"></div>
-                </div><button onclick="checkFields()" class="btn btn-light submit-button" type="button"><a  href="#"> Continue </a></button></form>
+
+                <p>
+                    <font id="emailError" color=" red "></font>
+                </p>
+                <p>
+                    <div class="form-row form-group ">
+                        <div class="col-sm-4 label-column "><label class="col-form-label " for="pawssword-input-field ">* Username</label></div>
+                        <div class="col-sm-6 input-column "><input id="username" class="form-control " type="email " placeholder="Minimum of 3 characters "></div>
+                    </div>
+                    <div class="form-row form-group ">
+                        <div class="col-sm-4 label-column "><label class="col-form-label " for="repeat-pawssword-input-field ">* Password </label></div>
+                        <div class="col-sm-6 input-column "><input placeholder="Minimum of 6 characters " class="form-control " id="password" type="password "></div>
+
+                    </div>
+
+                    <button onclick="checkFields() " class="btn btn-light submit-button " type="button "><a  href="# "> Continue </a></button></form>
         </div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js "></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js "></script>
 </body>
 
 </html>
