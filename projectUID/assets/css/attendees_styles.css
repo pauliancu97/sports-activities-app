@@ -1,0 +1,25 @@
+.num-para{
+    display: inline;
+}
+.nav-tabs li{
+    flex: 1;
+    text-align: center;
+}
+#search-box-div{
+    padding-top: 1%;
+}
+#search-box-div i{
+    width: 10%;
+    display: inline-block;
+    padding: 2.5%;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+#search-box-div input{
+    width: 85%;
+    display: inline-block;
+}
+.tab-pane{
+    overflow-y: scroll;
+    height: 450px;
+}
