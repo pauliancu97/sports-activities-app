@@ -1,0 +1,14 @@
+.btn-group-horizontal {
+    margin-left: 0%;
+    margin-bottom: 1%;
+}
+.btn-group-horizontal .btn{
+    width: 32.5%;
+    background-color: pink;
+    color:black;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+    word-wrap: break-word;
+}

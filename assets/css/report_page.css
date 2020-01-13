@@ -1,0 +1,13 @@
+#report-options-div .btn{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0.5%;
+    background-color: pink;
+    font-weight: bold;
+}
+#report-options-div{
+    text-align: center;
+}
+h2{
+    margin-left: 3%;
+}
