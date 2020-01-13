@@ -1,3 +1,6 @@
+#page-title{
+    margin-left: 1%;
+}
 #chars-left-para{
     background-color: blueviolet;
     border-radius: 10px;
@@ -15,7 +18,7 @@
     margin-right: 1%;
 }
 #comment-div{
-    height: 515px;
+    height: 415px;
 }
 #send-btn{
     width: 100%;

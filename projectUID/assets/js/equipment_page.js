@@ -8,8 +8,8 @@ let equipmentList = [
     {
         name:'Running T-Shirt',
         icon:'fas fa-tshirt',
-        quantity: 1,
-        hasQuantity: 0
+        quantity: 2,
+        hasQuantity: 1
     },
     {
         name:'Watter bottle',

@@ -1,3 +1,6 @@
+#page-title{
+    margin-left: 1%;
+}
 #invite-header{
     margin-top: 1%;
     margin-left: 1%;
@@ -62,7 +65,7 @@
     margin-top: 2%;
 }
 #friends-list{
-    height: 420px;
+    height: 360px;
 }
 #next-step-btn{
     text-align: center;

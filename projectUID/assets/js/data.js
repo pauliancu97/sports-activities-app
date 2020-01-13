@@ -4,6 +4,7 @@ let DATA = {
         username: 'Razvan Dumitrescu',
         image: 'assets/img/runner.png'
     },
+	pending_friend_requests:[],
     'color_run':
     {
         activity: true,
@@ -111,8 +112,8 @@ let DATA = {
             {
                 name:'Running T-Shirt',
                 icon:'fas fa-tshirt',
-                quantity: 1,
-                hasQuantity: 0
+                quantity: 2,
+                hasQuantity: 1
             },
             {
                 name:'Watter bottle',
