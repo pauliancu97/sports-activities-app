@@ -6,7 +6,7 @@ let DATA = {
     },
     pending_friend_requests:
     [
-        
+
     ],
     'color_run':
     {
@@ -115,8 +115,8 @@ let DATA = {
             {
                 name:'Running T-Shirt',
                 icon:'fas fa-tshirt',
-                quantity: 1,
-                hasQuantity: 0
+                quantity: 2,
+                hasQuantity: 1
             },
             {
                 name:'Watter bottle',

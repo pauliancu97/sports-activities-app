@@ -37,6 +37,7 @@ function initEquipmentList(){
 }
 
 function init(){
+    initEquipmentList();
     let showButton = $('#show-button');
     showButton.text(state.msg);
     showButton.on('click', handleShowButtonClick);
